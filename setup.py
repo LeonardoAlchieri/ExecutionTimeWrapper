@@ -8,7 +8,7 @@ with open(path.join(path.abspath(path.dirname(__file__)), "README.md")) as f:
 
 setup(
     name='execution_time_wrapper',
-    version="0.1.1",
+    version="1.0.0",
     license='MIT',
     url='https://github.com/LeonardoAlchieri/ExecutionTimeWrapper',
     author='Leonardo Alchieri',
@@ -21,17 +21,18 @@ setup(
     # py_modules=['apple_heartrate_pandas'],
     classifiers=[
         "Programming Language :: Python",
+        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3 :: Only",
-        "Development Status :: 4 - Alpha",
+        "Development Status :: 5 - Production/Stable",
         "Environment :: Console",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
     ],
-    python_requires=">=3.7",
+    python_requires=">=3.6",
     install_requires=[
-    'python_version>="3.7"',
+    'python_version>="3.6"',
 ]
 )

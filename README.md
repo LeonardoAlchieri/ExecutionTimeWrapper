@@ -1,3 +1,8 @@
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.org/project/execution-time-wrapper/)
+[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/execution-time-wrapper/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/pybadges.svg)](https://pypi.org/project/execution-time-wrapper/)
+[![Downloads](https://pepy.tech/badge/apple-heartrate-pandas)](https://pepy.tech/project/execution-time-wrapper)
+
 # Execution Time Wrapper
 
 A simple package with a few method to get the execution time of methods through wrapping.
