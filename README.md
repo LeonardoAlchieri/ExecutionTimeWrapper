@@ -1,7 +1,7 @@
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.org/project/execution-time-wrapper/)
 [![PyPI version](https://badge.fury.io/py/execution-time-wrapper.svg)](https://badge.fury.io/py/execution-time-wrapper)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/pybadges.svg)](https://pypi.org/project/execution-time-wrapper/)
-[![Downloads](https://pepy.tech/badge/apple-heartrate-pandas)](https://pepy.tech/project/execution-time-wrapper)
+[![Downloads](https://pepy.tech/badge/execution-time-wrapper)](https://pepy.tech/project/execution-time-wrapper)
 
 # Execution Time Wrapper
 
