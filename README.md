@@ -43,7 +43,7 @@ my_fun()
 >> Computation time for my_fun: 4.00 s
 ```
 
-The same for the other method given, i.e. `get_execution_time_log
+The same for the other method given, i.e. `get_execution_time_log`.
 
 ## TODOs
 
