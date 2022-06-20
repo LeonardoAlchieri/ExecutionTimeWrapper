@@ -22,8 +22,8 @@ def my_fun():
 my_fun()
 ```
 ```console
-Hello World!
-Computation time for my_fun: 0.02 ms
+>> Hello World!
+>> Computation time for my_fun: 0.02 ms
 ```
 However, if the function takes more time:
 ```python
@@ -39,8 +39,8 @@ def my_fun():
 my_fun()
 ```
 ```console
-Hello World!
-Computation time for my_fun: 4.00 s
+>> Hello World!
+>> Computation time for my_fun: 4.00 s
 ```
 
 The same for the other method given, i.e. `get_execution_time_log
