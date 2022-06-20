@@ -9,16 +9,41 @@ A simple package with a few method to get the execution time of methods through 
 
 ## Usage
 
-Currently, the package contains two methods, one which returns to sdout (print) and one which goes to a logger.
+Currently, the package contains two methods, one which returns to sdout (print) and one which goes to a logger. The method prints the time in a nice way, i.e. milliseconds, seconds, minutes or hours. For example:
 
 ```python
-from execution_time_wrapper import get_execution_time_log
+from execution_time_wrapper import get_execution_time_print, get_execution_time_log
 
-@get_execution_time_log
+@get_execution_time_print
 def my_fun():
     print("Hello World!")
 ```
-The same for the other method given, i.e. `get_execution_time_print`.
+```python
+my_fun()
+```
+```console
+Hello World!
+Computation time for my_fun: 0.02 ms
+```
+However, if the function takes more time:
+```python
+from execution_time_wrapper import get_execution_time_print, get_execution_time_log
+from time import sleep
+
+@get_execution_time_print
+def my_fun():
+    sleep(4)
+    print("Hello World!")
+```
+```python
+my_fun()
+```
+```console
+Hello World!
+Computation time for my_fun: 4.00 s
+```
+
+The same for the other method given, i.e. `get_execution_time_log
 
 ## TODOs
 
