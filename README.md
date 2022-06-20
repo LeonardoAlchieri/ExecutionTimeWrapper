@@ -12,7 +12,7 @@ A simple package with a few method to get the execution time of methods through 
 Currently, the package contains two methods, one which returns to sdout (print) and one which goes to a logger.
 
 ```python
-from execution_time import get_execution_time_log
+from execution_time_wrapper import get_execution_time_log
 
 @get_execution_time_log
 def my_fun():
